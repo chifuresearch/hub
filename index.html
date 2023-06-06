@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+<!--   p5js   -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--  amim text  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <meta charset="utf-8" />
+    <!--  babylon renderer  -->
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <!--  babylon GUI  -->
+    <script src=" https://cdn.jsdelivr.net/npm/babylonjs-gui@5.52.0/babylon.gui.min.js "></script>
+    <script src="https://cdn.babylonjs.com/materialsLibrary/babylonjs.materials.min.js"></script>
+    <!--  loaders  -->
+    <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+    <!--  physics  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.2/cannon.min.js"></script>
+  
+     <!-- dat.gui -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.js"></script> 
+</head>
+<body>
+      <main>
+    </main>
+    <div id='container'>
+      
+    </div>
+    <div id= 'content'>
+      <div id='title'>
+        <h1>Lab IIA Team</h1>
+        <p>2023 Tamkuang University Dept. Architecture, EA4</p>
+      </div>
+      <div id='about'>
+        <h1>關於 IIA</h1>
+        <h4>About IIA</h4>
+        <p>本實驗研究組，主要研究 環境 / 敘事 / 媒材載體 當中 各種 類比 / 數位 資訊 ， 以及其可能被 擷取 / 分析 / 轉譯 / 乃至於 衍生運算的方法。期待同學們能夠藉由探討場域當中各種資訊對象彼此間的關聯性 / 轉譯邏輯 / 再現工法，去思考空間當中 物理 / 構造 / 材料 / 使用者行為 / 互動模式 等不同面向的整合性邏輯，進而發展出具個人化風格的空間設計模式。</p>
+        <p>Our team focuses on exploring various types of analog/digital information in the fields of environment, narrative, and media, as well as the methods for extracting, analyzing, translating, and even deriving operations from them.</br>We hope that students can investigate the interrelationships, translation logic, and representation methods among various information objects in the field, and think about the integrated logic of different aspects such as physicality, structure, materials, user behavior, interaction modes in space, and develop their own personality of space.。</p>
+      </div>
+<!-- </div> -->
+    </div>
+    
+    <canvas id='renderCanvas'></canvas>
+    <script src='sketch.js'></script>
+    <script src='layout.js'></script>
+    <!-- 資訊浮水 -->
+    <div id="info">
+      <h2>P5js + BabylonJS + Load GLB Scene + Physics + Selection</h2>
+      <p style="font-size:0.9em; margin-top:-0.5em">- ES6 TypedModule | BabylonJS | dat.GUI | PBR textures | GLB | Physics-<br><br>Composed with <a href="https://doc.babylonjs.com/" target="_blank" rel="noopener">BabylonJS</a> by <a href="https://mediaplusarchi.github.io/cfrlab/" target="_blank" rel="noopener">IIA studio</a> © 2021.</p>
+	</div>
+</body>
+</html>
+
